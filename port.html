@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Myportfolio</title>
+    <style>
+        body {
+          margin: 0;
+          background-color: #f1f1f1;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #navbar {
+          background-color: #333;
+          position: fixed;
+          top: -50px;
+          width: 100%;
+          display: block;
+          transition: top 0.3s;
+        }
+        
+        #navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 15px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        </style>
+        </head>
+        <body>
+        
+
+        <div id="navbar">
+          <a href="#Nothing">Nothing</a>
+        </div>
+        
+        <div style="padding:15px 15px 2500px;font-size:30px">
+          <p>You can scroll down/up.</p>
+          <p><b>About me</b><br>Hi my name is Achita Cheardsatiensak or you can call me Jeen. Now I'm studying at KMUTT university as computer engineering freshy.</p>
+          <p><b>Education</b><br><img src="ดาวน์โหลด.png"><img src="115721_orig.png"><br>My elementary school is Sarasas Witaed Bangbon School and high school is Suankularb Wittayalai Thonburi School ,Then at grade10 I decided to have a test to get in Gifted class.</p>  
+          <p><b>Skill</b><br>Actually I do not have any skill sorry but I think I have more endurance than the standard.</p>
+          <p><b>Contact</b><br>Tel.:081-669-2399<br>ID Line:0816692399<br>Facebook:J'jeen cheardsatiensak<br>Instagram:cheardsatiensak<br>You can call me whatever.</p>
+            
+        </div>
+        
+        <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+        }
+        </script>
+        
+        </body>
+</html>
